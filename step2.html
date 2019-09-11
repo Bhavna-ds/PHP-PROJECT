@@ -1,0 +1,19 @@
+
+<html>
+<body> <head>
+	<link rel="stylesheet" type="text/css" href="main.css"/> </head>
+<h2>{errors}</h2>
+<form action="index.php" method="post">
+<table cellspacing="10">
+<input type="hidden" name="login" value="{login}">
+<input type="hidden" name="pass" value="{pass}">
+<input type="hidden" name="cpass" value="{cpass}">
+<input type="hidden" name="gender" value="{gender}">
+<input type="hidden" name="email" value="{email}">
+<tr><td><span>Verification code</span></td><td><input name="vcode"></td><td></td></tr>
+<tr><td><span>Hint</span></td><td><i>{vcode}</i></td><td></td></tr>
+<tr><td colspan="2"><input type="submit" name="Submit" value="Register"></td></tr>
+</table>
+</form>
+</body>
+</html>
